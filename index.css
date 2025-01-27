@@ -1,0 +1,29 @@
+#mainB{
+    border: 5px solid black;
+    padding: 10px;   
+    width: 250px;
+    border-radius: 30px;
+    background-color: darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#mainB button{
+    margin: 9px;
+}
+#mainB button:active{
+    background-color: white;
+}
+input{
+    height: 50px;
+    width: 215px;
+    border-radius: 20px;
+    background-color: azure;
+}
+button{
+    border-color: transparent;
+    background-color: rgb(203, 209, 194);
+    border-radius: 100px;
+    height: 30px;
+    width: 35px;
+}
