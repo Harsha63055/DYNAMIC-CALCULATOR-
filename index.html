@@ -5,40 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
 </head>
 <body>
     <h1>DYNAMIC-CALCULATOR</h1><br><br>
     <div id="mainB">
-        <input type="text">
+        <input type="text" id="display">
         <div>
-            <button>AC</button>
-            <button>%</button>
-            <button>DEL</button>
-            <button>/</button>
+            <button onclick="allclear()">AC</button>
+            <button value="%" onclick="calc(event)">%</button>
+            <button onclick="del()">DEL</button>
+            <button value="/" onclick="calc(event)">/</button>
         </div>
         <div>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>X</button>
+            <button value="7" onclick="calc(event)">7</button>
+            <button value="8" onclick="calc(event)">8</button>
+            <button value="9" onclick="calc(event)">9</button>
+            <button value="X" onclick="calc(event)">X</button>
         </div>
         <div>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>-</button>
+            <button value="4" onclick="calc(event)">4</button>
+            <button value="5" onclick="calc(event)">5</button>
+            <button value="6" onclick="calc(event)">6</button>
+            <button value="-" onclick="calc(event)">-</button>
         </div>
         <div>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>+</button>
+            <button value="1" onclick="calc(event)">1</button>
+            <button value="2" onclick="calc(event)">2</button>
+            <button value="3" onclick="calc(event)">3</button>
+            <button value="+" onclick="calc(event)">+</button>
         </div>
         <div>
-            <button>00</button>
-            <button>0</button>
-            <button>.</button>
-            <button>=</button>
+            <button value="00" onclick="calc(event)">00</button>
+            <button value="0" onclick="calc(event)">0</button>
+            <button value="." onclick="calc(event)">.</button>
+            <button value="" onclick="calc(event)">=</button>
         </div>
     </div>
 </body>
