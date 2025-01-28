@@ -6,8 +6,8 @@ function calc(event) {
 
   // Check if the last character is an operator
   if (
-    ["+", "-", "*", "/"].includes(lastChar) &&
-    ["+", "-", "*", "/"].includes(value)
+    ["+", "-", "*", "/",".","%"].includes(lastChar) &&
+    ["+", "-", "*", "/",".","%"].includes(value)
   ) {
     display.value = display.value.slice(0, -1) + value; // Replace the last operator
   } else {
